@@ -1,0 +1,84 @@
+.patient-file {
+    margin-right: 45px;
+}
+
+.patient-info {
+    margin-top: 30px;
+    margin-left: 45px;
+    height: 550px;
+    text-align: left;
+    overflow-y:scroll;
+}
+
+.patient-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -40px;
+}
+
+.patient-top > button {
+    margin-right: 50px;
+}
+
+.patient-id {
+    font-size: 20px;
+    margin-left: 50px
+}
+
+.add-item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 10px;
+    padding: 6%;
+}
+  
+.add-item > p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.input-container.Mui-selected{
+    background-color: black;
+}
+
+.patient-buttons{
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+.patient-buttons > Button{
+    color:black;
+}
+
+.patient-top> Button{
+    color:black;
+}
+
+.diagnosis {
+    margin: 80px;
+}
+
+.diagnosis Button{
+    margin: 40px;
+}
+
+.diagnosis Button:hover{
+    color: black;
+}
+
+.diagnoses-table {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+
+.diagnoses-table td, .diagnoses-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 20px;
+  }

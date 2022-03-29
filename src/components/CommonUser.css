@@ -1,0 +1,90 @@
+.main-content-container {
+    height: 94vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(184, 194, 194, 0.048);
+}
+
+.user-sidebar {
+    width: 30%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-direction: column;
+    /* background-image: linear-gradient(white, #1e8fffbb); */
+    background-color: #1e8fff42;
+    text-align: center;
+}
+
+.navigation-btns-user {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    /* width: 100%; */
+    margin: 0 auto;
+    
+}
+
+button:hover {
+    background-color: #1e8fffad;
+    transform: scale(1.1);
+    color: white;
+    transition: 0.15s;
+    font-weight: 700;
+}
+
+.nav-btns {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    width: 95.5%;
+    /* border: none; */
+}
+
+
+
+button:active {
+    background-color: #ffbf00;
+}
+
+.main-page-content {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+    font-size: 20px;
+  }
+
+.table td, .inventory-table th {
+    border: 1px solid #ddd;
+    padding: 8px; 
+  }
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: rgb(224, 221, 221);}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4c87af;
+    color: white;
+  }
+
+  .table > tr > Button{
+      margin: 5px;
+  }
+
+  .table > tr > Button:hover{
+    color: black;
+}
