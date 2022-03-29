@@ -27,7 +27,7 @@ const HomePage = (props) => {
                     </Typography>
                     <div className='pages-nav-navbar'>
                         <Link to='/login' className='logout-btn-nav'>
-                            <Button variant="outlined" color="primary">
+                            <Button variant="outlined" style={{backgroundColor: "green"}} color="primary">
                                 Log In
                             </Button>
                         </Link>
