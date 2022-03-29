@@ -85,7 +85,7 @@ const SignUp = () => {
         setErrorMessage("Enter username and password");
         return;
       }
-      console.log("New user added to database");
+      console.log(ROUTES);
       const type = [ROUTES[hospitalKey.slice(2, 3)][0]];
       console.log("This is the type", type);
 
